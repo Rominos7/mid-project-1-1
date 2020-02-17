@@ -1,0 +1,114 @@
+footer{
+    background-color: $primary-1;
+    height: 600px;
+}
+
+.footer-1{
+    height: 600px;
+}
+
+
+
+
+
+.footer-2{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-top: 20px;
+
+    border-bottom: solid 2px $l1-2;
+    
+    .emblem{
+        width: 290px;
+        
+        img{
+            margin-top:10px;
+        }
+        .emblem-1{
+            float:left;
+            margin-top: 0px;
+            margin-right: 10px;
+        }
+    
+        p{
+            @include font($base-ligh,$font-thin,13px,100);
+            margin-top: 2px;
+        }
+        
+    }
+    
+    
+    
+    .footer-2-1{
+
+        ul{
+            list-style-type: none;
+        li{
+                float:left;
+                margin-right: 40px;
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    @include font($base-ligh,$font-medium,12px,100);
+                }
+            }
+        }
+    }
+}
+
+.footer-3{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px $l1-2;
+
+    .footer-3-1{
+        h4{
+            @include font($base-ligh,$font-medium,16px,100);
+        }
+        p{
+            margin-top: 20px;
+            @include font($base-ligh,$font-regular,12px,100);
+            word-spacing: 5px;
+            line-height: 25px;
+        }
+    }
+
+}
+
+
+.footer-4{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    //margin-top: 10px;
+
+    article{
+        //width: 500px;
+        display:flex;
+        align-items: center;
+        img{
+            float:left;
+            margin-right: 15px;
+        }
+
+        p{
+            @include font($base-ligh,$font-medium,13px,100);
+        }
+        .p-1{
+            @include font($base-ligh,$font-regular,16px,bold);
+        }
+        .p-2{
+            @include font($base-ligh,$font-medium,13px,100);
+            
+        }
+    }
+
+}

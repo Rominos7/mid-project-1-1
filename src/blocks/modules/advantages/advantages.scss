@@ -1,0 +1,73 @@
+.advantages-1{
+    background: url(../../../img/advantages-bg.png) $primary-1 center center no-repeat;
+    height: 695px;
+}
+
+.leters{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    text-align: center;
+    
+    h6{
+        
+        @include font($base-ligh,$font-regular,15px,100);
+    }
+    
+    h2{
+        margin-top: 35px;
+        @include font($base-ligh,$font-medium,33px,100);
+    }
+}
+
+
+
+.plates{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+    article{
+        float:left;
+        margin-right: 20px;
+        background-color: white;
+        width: 360px;
+        height: 315px;
+    }
+
+    .plates-1{
+        text-align: center;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            margin-top:42px;
+        }
+        h4{
+            margin-top: 30px;
+            @include font($base-dark,$font-medium,17px,500);
+        }
+
+        p{
+            margin-top:20px;
+            @include font($primary-4,$font-regular,14px,500);
+        }
+    }
+
+}
+
+.button-1{
+    margin:0 auto;
+    margin-top: 60px;
+    background-color: $d1-1;    
+    //border: solid;
+    //border-width: 1px;
+    //border-color: $d1-1;
+    border:none;
+    border-radius: 3px;
+    @include font($base-ligh,$font-medium,14px,500);
+    width: 280px;
+    height: 50px;
+
+}
