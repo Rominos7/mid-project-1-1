@@ -112,3 +112,67 @@ footer{
     }
 
 }
+
+
+@media(max-width:960px){
+
+    footer{
+        background-color: $primary-1;
+        height: 700px;
+    }
+    
+    .footer-1{
+        height: 700px;
+    }
+
+    .footer-4-1{
+        display:none;
+    }
+
+    .footer-2{
+        .footer-2-1{
+            ul{
+                list-style-type: none;
+                margin-left: 10px;
+                //display:flex;
+                //justify-content: space-between;
+            li{
+                    float:left;
+                    margin-right: 5px;
+                    a{
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        @include font($base-ligh,$font-medium,10px,100);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-4{
+            
+        article{
+            
+            margin-right: 5px;
+            img{
+                float:left;
+                margin-right: 5px;
+                
+            }
+    
+            p{
+                @include font($base-ligh,$font-medium,12px,100);
+            }
+            .p-1{
+                @include font($base-ligh,$font-regular,16px,bold);
+            }
+            .p-2{
+                @include font($base-ligh,$font-medium,12px,100);
+                
+            }
+        }
+    
+    }
+    
+
+}

@@ -166,5 +166,147 @@
 }
 
 
+@media(max-width:960px){
+}
+
+@media(max-width:720px){
+
+    .price-grid{
+    
+        margin-top:45px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 620px;
+        width: 945px;
+    
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    
+        .g-5{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: $primary-1;
+
+            width: 540px;
+            //height: 400px;
+
+            .chains{
+                height: 280px;
+                width: 480px;
+                margin-left: 5px;
+               
+                h3{
+                  text-align: center;
+                  margin-top: 20px;
+                }
+      
+                .p-4{
+                  margin-top: -12px;
+                  margin-left: 65px; 
+                }
+      
+                .chains-1{
+      
+                  margin-top: 15px;
+                  height: 140px;
+                  width: 400px;
+                  border: dashed 2px $base-ligh;
+                  border-radius: 30px;
+                  margin-left: 35px;
+                  background-color: $d1-1;
+                  position: relative;
+      
+                  .m-1{
+                      position: absolute;
+                      top:-14%;
+                      //left:-5%;
+                  }
+      
+                  .m-2{
+                      position: absolute;
+                      top:-14%;
+                      left:75%;
+                  }
+      
+                  .p-1{
+                      @include font($base-ligh,$font-medium,24px,400);
+                      margin-top:10px;
+                      margin-left: 55px;
+                     
+                  }
+      
+                  .p-2{
+                      @include font($primary-3,$font-regular,62px,600);
+                      text-transform: uppercase;
+                      text-align: left;
+                      //margin-top: px;
+                      margin-left: 70px;
+                      width: 400px;
+                      word-spacing: -5px;
+                      //line-height: 60px;
+      
+                  }
+      
+                  .p-3{
+                      @include font($base-ligh,$font-medium,14px,100);
+                      //text-align: center;
+                      margin-top: -45px;
+                      margin-left: 120px;
+                      //width: 120px;
+                  }
+      
+                }
+              }
+
+
+
+
+        }
+    }
+
+
+}
+
+@media(max-width:540px){
+
+
+    .price-grid{
+    
+        margin-top:45px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 620px;
+        width: 945px;
+    
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    
+        .g-5{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: $primary-1;
+
+            width: 510px;
+            //height: 400px;
+
+            .chains{
+                height: 280px;
+                width: 470px;
+                margin-left: 2px;
+            }
+        }
+    }
+}
+
 
 
