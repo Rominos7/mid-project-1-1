@@ -44,3 +44,137 @@
         }
     }
 }
+
+@media(max-width:960px){
+    .main-1{
+        height: 600px;
+    }
+    h6{
+        text-align: center;
+    }
+
+    .content{
+    margin-left:40px;
+    width: 1300px;
+    height: 420px;
+
+    article{
+        float:left;
+        margin-right: 5px;        
+    }
+
+    .content-1{
+        display:none;
+    }
+
+    .content-2{
+        width: 600px;
+        height:100%;
+        h6{
+            @include font($primary-1,$font-regular,15px,600);
+        }
+        h2{
+            margin-top:35px;
+            @include font($d4-3,$font-regular,26px,bold);
+            
+        }
+        P{
+            margin-top:20px;
+            @include font($d4-3,$font-regular,14px,100); 
+        }
+    }
+
+    }
+    
+
+}
+
+@media(max-width:720px){
+    .main-1{
+        height: 600px;
+    }
+    h6{ 
+        text-align: center;
+    }
+
+    .content{
+    margin-left:20px;
+    margin-top: 0px;
+    width: 1300px;
+    height: 420px;
+
+    article{
+        float:left;
+        margin-right: 5px;        
+    }
+
+    .content-1{
+        display:none;
+    }
+
+    .content-2{
+        width: 500px;
+        height:100%;
+        h6{
+            @include font($primary-1,$font-regular,15px,600);
+        }
+        h2{
+            margin-top:35px;
+            @include font($d4-3,$font-regular,26px,bold);
+            
+        }
+        P{
+            margin-top:20px;
+            @include font($d4-3,$font-regular,14px,100); 
+        }
+    }
+
+    }
+    
+
+}
+
+@media(max-width:540px){
+    .main-1{
+        height: 600px;
+    }
+    h6{ 
+        text-align: center;
+    }
+
+    .content{
+    margin-left:20px;
+    margin-top: 50px;
+    width: 1300px;
+    height: 420px;
+
+    article{
+        float:left;
+        margin-right: 5px;        
+    }
+
+    .content-1{
+        display:none;
+    }
+
+    .content-2{
+        width: 450px;
+        height:100%;
+        h6{
+            @include font($primary-1,$font-regular,15px,600);
+        }
+        h2{
+            margin-top:35px;
+            @include font($d4-3,$font-regular,26px,bold);
+            
+        }
+        P{
+            margin-top:20px;
+            @include font($d4-3,$font-regular,14px,100); 
+        }
+    }
+
+    }
+    
+
+}

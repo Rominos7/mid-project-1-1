@@ -93,7 +93,57 @@ header{
 }
 
 
+@media(max-width:960px){
+    
+    .list-1{
+        img{
+            display:none;
+        }
+    }
 
+    .buttons{
+        display: none;
+    }
+
+}
+
+@media(max-width:720px){
+    
+    
+    .list-1{
+        width:500px;
+
+    }
+
+    .emblem{
+        width: 280px;
+        img{
+             
+        }
+
+        .emblem-1{
+        }
+
+        .emblem-2{
+            width: 60%;
+        }
+
+        p{
+            //display:none;
+        }
+    }
+}
+
+@media(max-width:540px){
+    .list-1{
+        display:none;
+    }
+
+    .buttons{
+        //display: block;
+    }
+
+}
 
 
 
