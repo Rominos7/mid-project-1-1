@@ -32,9 +32,13 @@ footer{
             margin-top: 0px;
             margin-right: 10px;
         }
+
+        .emblem-2{
+            width: 50%;
+        }
     
         p{
-            @include font($base-ligh,$font-thin,13px,100);
+            @include font($base-ligh,$font-thin,10px,100);
             margin-top: 2px;
         }
         
@@ -133,7 +137,7 @@ footer{
         .footer-2-1{
             ul{
                 list-style-type: none;
-                margin-left: 10px;
+                margin-left: 5px;
                 //display:flex;
                 //justify-content: space-between;
             li{
@@ -148,6 +152,8 @@ footer{
             }
         }
     }
+
+
 
     .footer-4{
             
@@ -175,4 +181,88 @@ footer{
     }
     
 
+}
+
+
+@media(max-width:720px){
+
+    footer{
+        background-color: $primary-1;
+        height: 700px;
+    }
+    
+    .footer-1{
+        height: 700px;
+    }
+
+    .footer-4-1{
+        display:none;
+    }
+
+    .footer-4-2{
+        display:none;
+    }
+
+    
+
+    .footer-2{
+        .footer-2-1{
+            ul{
+                list-style-type: none;
+                margin-left: 5px;
+            li{
+                    float:left;
+                    margin-right: 5px;
+                    a{
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        @include font($base-ligh,$font-medium,10px,100);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-3{
+            
+        .footer-3-1{
+            
+            p{
+                @include font($base-ligh,$font-regular,12px,100);
+                word-spacing: 2px;
+                line-height: 20px;
+            }
+        }
+    
+    }
+
+    .footer-4{
+            
+        article{
+            
+            margin-right: 5px;
+            img{
+                float:left;
+                margin-right: 5px;
+                
+            }
+    
+            p{
+                @include font($base-ligh,$font-medium,12px,100);
+            }
+            .p-1{
+                @include font($base-ligh,$font-regular,12px,100);
+            }
+            .p-2{
+                @include font($base-ligh,$font-medium,12px,100);
+                
+            }
+        }
+    
+    }
+    
+
+}
+
+@media(max-width:540px){
 }

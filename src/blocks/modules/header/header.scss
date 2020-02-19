@@ -43,7 +43,7 @@ header{
     justify-content: space-between;
     
     ul.link-list{
-        padding-top: 15px;
+        padding-top: 5px;
         list-style-type: none;
         li{
             float:left;
@@ -135,11 +135,24 @@ header{
 }
 
 @media(max-width:540px){
+    .emblem{
+        margin-right: 10px;
+        width: 550px;
+    }
+    
     .list-1{
-        display:none;
+        display:block;
+        ul.link-list{
+            display:none;
+        }
     }
 
     .buttons{
+        display: block;
+        
+    }
+
+    .burder-1{
         //display: block;
     }
 
